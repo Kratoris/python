@@ -39,6 +39,7 @@ def main():
    tortuga = Turtle()
    ventana = Screen()
    ventana.title("Triángulo de Sierpiński") #Titulo de la ventana
+
    ventana.setup(650, 625, None, None)
    tamanoBase = [[-300, -150], [0, 300], [300, -150]]
    grado = int(textinput("Grado Triangulo", "Ingrese el grado del triángulo de Sierpiński a graficar: "))
